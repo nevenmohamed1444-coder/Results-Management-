@@ -1,0 +1,55 @@
+
+body {
+    background-color: #fff1f5;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #c45b83;
+    font-weight: bold;
+}
+
+.card {
+    background-color: #fffafd;
+    border: 1px solid #f8d5e1;
+    border-radius: 18px;
+    box-shadow: 0 4px 12px rgba(196, 91, 131, 0.10);
+}
+
+.form-control {
+    border: 1px solid #f1c3d2;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.form-control:focus {
+    border-color: #d889a8;
+    box-shadow: 0 0 5px #f2c2d3;
+}
+
+.btn-primary {
+    background-color: #d889a8;
+    border-color: #d889a8;
+}
+
+.btn-primary:hover {
+    background-color: #c46f91;
+}
+
+.btn-success {
+    background-color: #b98ba5;
+    border-color: #b98ba5;
+}
+
+#errorBox {
+    color: #c0395b;
+    background-color: #ffe0e9;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+#studentsDisplay,
+#reportDisplay {
+    line-height: 2;
+    color: #8f496b;
+}
